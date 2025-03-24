@@ -1,0 +1,6 @@
+-- ingest data from kaggle 
+kaggle
+
+-- upload data from local to GCS
+google-cloud-storage
+
