@@ -49,7 +49,41 @@ This DAG automates the first part of the pipeline:
 - Download Formula 1 data from Kaggle
 - Upload all CSV files to GCS under the `raw/` folder
 
-To run manually:
+Use pip to install airflow:
+```bash
+pip install apache-airflow
+```
+
+#### First-time Setup (Only Once)
+```bash
+- Initialize Airflow metadata DB
+airflow db init
+
+- Create an admin user for the Airflow UI
+airflow users create \
+  --username admin \
+  --firstname Admin \
+  --lastname User \
+  --role Admin \
+  --email admin@example.com \
+  --password admin
+```
+
+#### Start Airflow Services (Every Time You Use It)
+```bash
+# Terminal 1: Start the Airflow Web UI
+airflow webserver --port 8080
+
+# Terminal 2: Start the Airflow Scheduler
+airflow scheduler
+```
+
+Then open your browser and go to: `http://localhost:8080`
+login info:
+- username: admin
+- password: admin
+
+To run manually to trigger the DAG:
 ```bash
 airflow dags trigger f1_ingestion_dag
 ```
