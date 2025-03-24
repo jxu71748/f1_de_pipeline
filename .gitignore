@@ -2,7 +2,8 @@
 terraform/terraform.tfvars
 *.tfstate
 *.tfstate.backup
-terraform/.terraform/
+# Ignore terraform cache
+terraform/.terraform
 terraform/.terraform.lock.hcl
 # ignore GCP credentials
 terraform/credentials/*.json
