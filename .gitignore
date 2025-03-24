@@ -1,16 +1,19 @@
-# ignore GCP 凭证文件
+# ignore GCP credentials
 terraform/credentials/*.json
 
-# 忽略数据文件
+# ignore data files
 raw_data/
 data/
 
-# 忽略 Python 临时文件
+# ignore Python temporary files
 __pycache__/
 *.pyc
 
-# Jupyter 输出
+# Jupyter output
 .ipynb_checkpoints/
 
 # Environment files
 .env
+
+# Mac will automatically generate this file but we don't want to upload it
+.DS_Store
