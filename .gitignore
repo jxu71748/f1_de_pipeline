@@ -1,0 +1,16 @@
+# ignore GCP 凭证文件
+terraform/credentials/*.json
+
+# 忽略数据文件
+raw_data/
+data/
+
+# 忽略 Python 临时文件
+__pycache__/
+*.pyc
+
+# Jupyter 输出
+.ipynb_checkpoints/
+
+# Environment files
+.env
