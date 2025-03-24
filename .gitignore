@@ -1,3 +1,7 @@
+# terraform sensitive files
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
 # ignore GCP credentials
 terraform/credentials/*.json
 
