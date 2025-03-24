@@ -44,6 +44,15 @@ export GOOGLE_CLOUD_PROJECT="your-projectID"
 ```
 Now, you don't have to run the credentials everytime you need it.
 
+### Airflow Ingestion DAG
+This DAG automates the first part of the pipeline:
+- Download Formula 1 data from Kaggle
+- Upload all CSV files to GCS under the `raw/` folder
+
+To run manually:
+```bash
+airflow dags trigger f1_ingestion_dag
+```
 
 
 ## Current Progress
