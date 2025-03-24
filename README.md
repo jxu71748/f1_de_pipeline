@@ -5,7 +5,7 @@ This project is part of the DE Zoomcamp course final project. The goal is to bui
 
 ## Tools Used
 - Cloud: Google Cloud Platform (GCS & BigQuery)
-- Infrastructure as code (IaC): Terraform for infrastructure provisioning
+- Infrastructure as code (IaC): Terraform
 - Workflow orchestration: Airflow
 - Batch processing: PySpark for data transformation
 - Visualization: Google Data Studio
