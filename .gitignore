@@ -8,19 +8,46 @@ terraform/.terraform.lock.hcl
 # ignore GCP credentials
 terraform/credentials/*.json
 
+# Airflow
+airflow.db
+airflow-webserver.pid
+logs/
+*.log
+*.pid
+*.err
+*.out
+
+# Docker
+docker/.env
+docker/airflow.cfg
+docker/dags/__pycache__/
+docker/logs/
+docker/plugins/__pycache__/
+
 # ignore data files
 raw_data/
 data/
 
-# ignore Python temporary files
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
+# VSCode
+.vscode/
+*.code-workspace
 # Jupyter output
 .ipynb_checkpoints/
 
-# Environment files
-.env
 
 # Mac will automatically generate this file but we don't want to upload it
 .DS_Store
+Thumbs.db
