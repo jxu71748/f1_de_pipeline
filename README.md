@@ -54,39 +54,47 @@ Use pip to install airflow:
 pip install apache-airflow
 ```
 
-#### First-time Setup (Only Once)
+### docker
+#### 1. Cleanup (Optional but Recommended)
+If you've previously started containers or want a fresh setup:
 ```bash
-- Initialize Airflow metadata DB
-airflow db init
-
-- Create an admin user for the Airflow UI
-airflow users create \
-  --username admin \
-  --firstname Admin \
-  --lastname User \
-  --role Admin \
-  --email admin@example.com \
-  --password admin
+cd docker
+docker-compose down --volumes --remove-orphans
 ```
 
-#### Start Airflow Services (Every Time You Use It)
+#### 2. Initialize Airflow Database and Create Admin User
 ```bash
-# Terminal 1: Start the Airflow Web UI
-airflow webserver --port 8080
-
-# Terminal 2: Start the Airflow Scheduler
-airflow scheduler
+docker-compose up airflow-init
 ```
 
-Then open your browser and go to: `http://localhost:8080`
-login info:
-- username: admin
-- password: admin
-
-To run manually to trigger the DAG:
+#### 3. Start All Services
 ```bash
-airflow dags trigger f1_ingestion_dag
+docker-compose up -d
 ```
+
+You can verify containers are running with:
+```bash
+docker ps
+```
+
+#### 4. Access the Airflow UI
+
+Open your browser and navigate to: `http://localhost:8080`
+
+Login credentials:
+- **Username**: `admin`
+- **Password**: `admin`
+
+#### Stop all services:
+```bash
+docker-compose down
+```
+
+#### Restart after reboot:
+```bash
+docker-compose up -d
+```
+
 
 
 ## Current Progress

@@ -1,0 +1,104 @@
+[2025-03-24T16:34:49.655-0700] {processor.py:186} INFO - Started process (PID=2905) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:34:49.655-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:34:49.656-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:49.656-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:34:49.665-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:34:49.933-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:49.933-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:34:50.188-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.188-0700] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-03-24T16:34:50.192-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.192-0700] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-03-24T16:34:50.194-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.194-0700] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-03-24T16:34:50.198-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.198-0700] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-03-24T16:34:50.200-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.200-0700] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-03-24T16:34:50.202-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.202-0700] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-03-24T16:34:50.205-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.204-0700] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-03-24T16:34:50.205-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.205-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:34:50.210-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.209-0700] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-03-24T16:34:50.210-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:50.210-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:34:50.217-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.564 seconds
+[2025-03-24T16:37:02.297-0700] {processor.py:186} INFO - Started process (PID=3390) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:37:02.298-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:37:02.298-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:37:02.298-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:37:02.307-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:37:02.516-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:37:02.515-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:37:02.729-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:37:02.728-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:37:02.734-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:37:02.734-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:37:02.742-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.447 seconds
+[2025-03-24T16:38:41.837-0700] {processor.py:186} INFO - Started process (PID=3745) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:38:41.838-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:38:41.839-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:38:41.839-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:38:41.848-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:38:42.087-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:38:42.087-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:38:42.265-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:38:42.265-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:38:42.270-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:38:42.270-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:38:42.278-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.443 seconds
+[2025-03-24T16:40:18.451-0700] {processor.py:186} INFO - Started process (PID=4127) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:40:18.453-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:40:18.453-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:40:18.453-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:40:18.463-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:40:18.669-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:40:18.669-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:40:18.892-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:40:18.892-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:40:18.897-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:40:18.897-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:40:18.905-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.456 seconds
+[2025-03-24T16:41:55.862-0700] {processor.py:186} INFO - Started process (PID=4464) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:41:55.863-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:41:55.864-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:41:55.864-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:41:55.874-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:41:56.096-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:41:56.096-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:41:56.308-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:41:56.308-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:41:56.313-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:41:56.313-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:41:56.321-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.461 seconds
+[2025-03-24T16:43:36.827-0700] {processor.py:186} INFO - Started process (PID=4810) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:43:36.828-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:43:36.829-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:43:36.829-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:43:36.838-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:43:37.073-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:43:37.073-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:43:37.309-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:43:37.309-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:43:37.315-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:43:37.315-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:43:37.325-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.500 seconds
+[2025-03-24T16:45:15.862-0700] {processor.py:186} INFO - Started process (PID=5135) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:45:15.862-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:45:15.863-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:45:15.863-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:45:15.872-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:45:16.092-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:45:16.092-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:45:16.305-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:45:16.305-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:45:16.310-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:45:16.310-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:45:16.319-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.459 seconds
+[2025-03-24T16:46:55.431-0700] {processor.py:186} INFO - Started process (PID=5487) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:46:55.433-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:46:55.434-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:46:55.433-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:46:55.443-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:46:55.646-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:46:55.646-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:46:55.851-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:46:55.850-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:46:55.856-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:46:55.856-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:46:55.864-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.434 seconds
+[2025-03-24T16:48:34.355-0700] {processor.py:186} INFO - Started process (PID=5815) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:48:34.355-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:48:34.356-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:48:34.356-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:48:34.366-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:48:34.734-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:48:34.733-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:48:34.985-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:48:34.985-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:48:34.991-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:48:34.991-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:48:35.002-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.649 seconds
+[2025-03-24T16:50:13.429-0700] {processor.py:186} INFO - Started process (PID=6193) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:50:13.431-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:50:13.432-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:50:13.432-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:50:13.441-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:50:13.649-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:50:13.649-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:50:13.858-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:50:13.857-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:50:13.863-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:50:13.863-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:50:13.871-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.444 seconds
+[2025-03-24T16:51:55.038-0700] {processor.py:186} INFO - Started process (PID=6527) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:51:55.040-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:51:55.041-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:51:55.040-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:51:55.050-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:51:55.280-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:51:55.280-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:51:55.477-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:51:55.477-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:51:55.482-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:51:55.482-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:51:55.492-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.455 seconds
+[2025-03-24T16:53:31.658-0700] {processor.py:186} INFO - Started process (PID=6845) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:53:31.660-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-03-24T16:53:31.661-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:53:31.660-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:53:31.670-0700] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-03-24T16:53:31.921-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:53:31.921-0700] {utils.py:161} INFO - NumExpr defaulting to 10 threads.
+[2025-03-24T16:53:32.107-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:53:32.106-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:53:32.112-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:53:32.112-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-03-24T16:53:32.121-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.465 seconds

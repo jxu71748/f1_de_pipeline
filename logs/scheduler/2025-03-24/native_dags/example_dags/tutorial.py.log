@@ -1,0 +1,92 @@
+[2025-03-24T16:34:10.171-0700] {processor.py:186} INFO - Started process (PID=2779) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:34:10.172-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:34:10.173-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.172-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:34:10.179-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:34:10.285-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.285-0700] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-03-24T16:34:10.290-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.290-0700] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-03-24T16:34:10.293-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.293-0700] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-03-24T16:34:10.299-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.299-0700] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-03-24T16:34:10.304-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.303-0700] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-03-24T16:34:10.309-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.309-0700] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-03-24T16:34:10.312-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.312-0700] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-03-24T16:34:10.312-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.312-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:34:10.317-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.317-0700] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-03-24T16:34:10.321-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:34:10.321-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:34:10.329-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.160 seconds
+[2025-03-24T16:36:27.137-0700] {processor.py:186} INFO - Started process (PID=3264) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:36:27.139-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:36:27.139-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:36:27.139-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:36:27.145-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:36:27.188-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:36:27.188-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:36:27.196-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:36:27.196-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:36:27.204-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2025-03-24T16:38:04.929-0700] {processor.py:186} INFO - Started process (PID=3595) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:38:04.931-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:38:04.932-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:38:04.932-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:38:04.937-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:38:04.980-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:38:04.979-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:38:04.989-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:38:04.989-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:38:04.997-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2025-03-24T16:39:42.950-0700] {processor.py:186} INFO - Started process (PID=3942) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:39:42.951-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:39:42.952-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:39:42.952-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:39:42.957-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:39:43.004-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:39:43.004-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:39:43.015-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:39:43.015-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:39:43.026-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2025-03-24T16:41:19.864-0700] {processor.py:186} INFO - Started process (PID=4344) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:41:19.865-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:41:19.866-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:41:19.866-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:41:19.871-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:41:19.918-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:41:19.918-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:41:19.927-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:41:19.927-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:41:19.935-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2025-03-24T16:43:00.868-0700] {processor.py:186} INFO - Started process (PID=4693) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:43:00.870-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:43:00.871-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:43:00.870-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:43:00.877-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:43:00.928-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:43:00.928-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:43:00.938-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:43:00.938-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:43:00.948-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2025-03-24T16:44:39.923-0700] {processor.py:186} INFO - Started process (PID=5018) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:44:39.924-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:44:39.925-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:44:39.925-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:44:39.930-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:44:39.978-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:44:39.978-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:44:39.987-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:44:39.987-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:44:39.996-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2025-03-24T16:46:19.684-0700] {processor.py:186} INFO - Started process (PID=5364) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:46:19.684-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:46:19.685-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:46:19.685-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:46:19.690-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:46:19.739-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:46:19.739-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:46:19.748-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:46:19.748-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:46:19.759-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2025-03-24T16:47:57.253-0700] {processor.py:186} INFO - Started process (PID=5690) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:47:57.253-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:47:57.254-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:47:57.254-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:47:57.259-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:47:57.302-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:47:57.302-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:47:57.311-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:47:57.311-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:47:57.318-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.067 seconds
+[2025-03-24T16:49:38.025-0700] {processor.py:186} INFO - Started process (PID=6058) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:49:38.026-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:49:38.027-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:49:38.027-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:49:38.032-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:49:38.076-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:49:38.076-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:49:38.084-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:49:38.084-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:49:38.092-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2025-03-24T16:51:18.182-0700] {processor.py:186} INFO - Started process (PID=6408) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:51:18.183-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:51:18.184-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:51:18.184-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:51:18.189-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:51:18.233-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:51:18.233-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:51:18.244-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:51:18.244-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:51:18.253-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2025-03-24T16:52:56.613-0700] {processor.py:186} INFO - Started process (PID=6728) to work on /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:52:56.615-0700] {processor.py:914} INFO - Processing file /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-24T16:52:56.615-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:52:56.615-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:52:56.621-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-03-24T16:52:56.663-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:52:56.663-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-24T16:52:56.673-0700] {logging_mixin.py:190} INFO - [2025-03-24T16:52:56.672-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-23 00:00:00+00:00, run_after=2025-03-24 00:00:00+00:00
+[2025-03-24T16:52:56.680-0700] {processor.py:208} INFO - Processing /Users/jingwenxu/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds

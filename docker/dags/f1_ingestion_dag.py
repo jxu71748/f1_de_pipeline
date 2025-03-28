@@ -27,3 +27,5 @@ with DAG(
     )
 
     download_data >> upload_to_gcs
+
+# trigger reload
