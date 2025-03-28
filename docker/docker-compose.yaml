@@ -3,7 +3,6 @@ x-airflow-common:
   &airflow-common
   image: apache/airflow:2.8.1
   environment:
-    &airflow-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
     AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
     AIRFLOW__CORE__FERNET_KEY: ''
@@ -14,6 +13,10 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
+    - ./scripts:/opt/airflow/scripts                  
+    - ../raw_data:/opt/airflow/raw_data                
+    - ../requirements.txt:/requirements.txt           
+    - ~/.kaggle:/home/airflow/.kaggle:ro                       
   depends_on:
     - postgres
 
@@ -33,14 +36,14 @@ services:
   airflow-webserver:
     <<: *airflow-common
     container_name: airflow-webserver
-    command: webserver
+    command: bash -c "pip install -r /requirements.txt && airflow webserver"
     ports:
       - "8080:8080"
 
   airflow-scheduler:
     <<: *airflow-common
     container_name: airflow-scheduler
-    command: scheduler
+    command: bash -c "pip install -r /requirements.txt && airflow scheduler"
 
   airflow-init:
     <<: *airflow-common

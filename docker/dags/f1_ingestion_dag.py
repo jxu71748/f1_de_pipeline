@@ -18,14 +18,14 @@ with DAG(
 
     download_data = BashOperator(
         task_id="download_kaggle_data",
-        bash_command="python3 scripts/download_f1_data.py"
+        bash_command="python3 /opt/airflow/scripts/download_f1_data.py"
     )
 
     upload_to_gcs = BashOperator(
         task_id="upload_to_gcs",
-        bash_command="python3 scripts/upload_to_gcs.py"
+        bash_command="python3 /opt/airflow/scripts/upload_to_gcs.py"
     )
 
     download_data >> upload_to_gcs
 
-# trigger reload
+
