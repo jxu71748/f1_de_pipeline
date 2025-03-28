@@ -54,7 +54,7 @@ Use pip to install airflow:
 pip install apache-airflow
 ```
 
-### docker
+### Docker
 #### 1. Cleanup (Optional but Recommended)
 If you've previously started containers or want a fresh setup:
 ```bash

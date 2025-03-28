@@ -5,3 +5,5 @@ kaggle
 google-cloud-storage
 
 apache-airflow
+
+psycopg2-binary
