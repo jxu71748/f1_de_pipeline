@@ -1,9 +1,8 @@
 # Formula 1 Data Pipeline Project 🏎️ 🏎️ 🏎️ 
----
+
 ## Project Objective
 This project is part of the DE Zoomcamp course final project. The goal is to build a complete batch data pipeline using GCP, Terraform, Airflow, and Spark. The dataset is from Kaggle and contains Formula 1 race data from 1950 to 2024.
 
----
 ## Tools Used
 - Cloud: Google Cloud Platform (GCS & BigQuery)
 - Infrastructure as code (IaC): Terraform
@@ -12,7 +11,7 @@ This project is part of the DE Zoomcamp course final project. The goal is to bui
 - Visualization: Google Data Studio
 - Python for scripting (data download, upload, transformation)
 
----
+
 ## Project Overview
 
 ### Infrastructure Setup with Terraform
@@ -70,11 +69,18 @@ cd docker
 docker compose down --volumes --remove-orphans
 ```
 
-#### 2. Build custom image with Spark support
-This will build the Airflow image with OpenJDK + Spark pre-installed:
+#### 2. Build custom Airflow image with Spark, PostgreSQL, Kaggle support
+This builds the Airflow image with all tools pre-installed and ready to go:
+- OpenJDK + Spark (for PySpark data transformation)
+- PostgreSQL (Airflow metadata DB)
+- Kaggle CLI (to download datasets)
+- GCS credentials (for uploading data to Google Cloud)
+- Local volume mounts for raw_data, transformed Parquet files, and DAGs
+
 ```bash
 docker compose build
 ```
+This may take a few minutes the first time. Once built, you can launch with `docker compose up -d`.
 
 #### 3. Initialize Airflow database and create admin user
 ```bash
