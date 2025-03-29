@@ -23,3 +23,4 @@ def download_f1_dataset(download_path="raw_data"):
 
 if __name__ == "__main__":
     download_f1_dataset()
+    

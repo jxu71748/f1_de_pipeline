@@ -14,7 +14,8 @@ x-airflow-common:
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./scripts:/opt/airflow/scripts                  
-    - ../raw_data:/opt/airflow/raw_data                
+    - ../raw_data:/opt/airflow/raw_data        
+    - ../terraform/credentials/terraform-key.json:/opt/airflow/credentials/google_credentials.json:ro        
     - ../requirements.txt:/requirements.txt           
     - ~/.kaggle:/home/airflow/.kaggle:ro                       
   depends_on:

@@ -4,6 +4,12 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 
 def download_f1_dataset(download_path="/opt/airflow/raw_data"):
     os.makedirs(download_path, exist_ok=True)
+    
+    # Check if we have already downloaded the core.csv files
+    expected_file = os.path.join(download_path, "races.csv")
+    if os.path.exists(expected_file):
+        print("Dataset already exists. Skipping download.")
+        return
 
     api = KaggleApi()
     api.authenticate()
