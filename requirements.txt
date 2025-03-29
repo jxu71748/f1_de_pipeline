@@ -2,7 +2,8 @@
 kaggle
 
 -- upload data from local to GCS
-google-cloud-storage
+google-cloud-storage>=2.0.0
+
 
 apache-airflow
 

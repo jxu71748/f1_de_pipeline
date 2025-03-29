@@ -7,7 +7,7 @@ This project is part of the DE Zoomcamp course final project. The goal is to bui
 - Cloud: Google Cloud Platform (GCS & BigQuery)
 - Infrastructure as code (IaC): Terraform
 - Workflow orchestration: Airflow
-- Batch processing: PySpark for data transformation
+- Batch processing: PySpark + dbt for data transformation
 - Visualization: Google Data Studio
 - Python for scripting (data download, upload, transformation)
 
@@ -46,6 +46,9 @@ export GOOGLE_CLOUD_PROJECT="your-projectID"
 ```
 Now, you don't have to run the credentials everytime you need it.
 
+Also, this project uses GOOGLE_APPLICATION_CREDENTIALS environment variable to securely authenticate GCS clients. Please ensure you have the proper key mounted and environment set in `docker-compose.yaml`.
+
+---
 ### Airflow Ingestion DAG
 This DAG automates the first part of the pipeline:
 - Download Formula 1 data from Kaggle
