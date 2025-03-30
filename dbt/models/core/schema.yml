@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: fct_constructor_stats
+    description: "Total points and number of wins for each constructor per year"
+    columns:
+      - name: constructor_name
+        description: "Name of the constructor (team)"
+      - name: year
+        description: "Race year"
+      - name: total_points
+        description: "Total points scored by the constructor in that year"
+      - name: wins
+        description: "Number of races won by the constructor in that year"
+
+  - name: fct_driver_fastest_lap
+    description: "Fastest lap time per driver per year"
+    columns:
+      - name: driverid
+        description: "Unique driver ID"
+      - name: driver_name
+        description: "Full name of the driver"
+      - name: year
+        description: "Race year"
+      - name: fastest_lap_time
+        description: "Fastest lap time (in milliseconds) recorded by the driver in that year"
+
+  - name: fct_race_count_by_country
+    description: "Number of races hosted by each country"
+    columns:
+      - name: country
+        description: "Name of the country"
+      - name: race_count
+        description: "Total number of races hosted by the country"

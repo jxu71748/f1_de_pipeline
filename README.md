@@ -144,7 +144,9 @@ Once you've uploaded the cleaned Parquet files to `gs://f1-de-bucket/silver/`, r
 cd scripts
 bash load_all_parquet_to_bq.sh
 ```
+FYI 😊, this `scripts` folder is the one that underneath our project.
 Make sure your GCP credentials are properly configured and the target dataset (f1_data) already exists.
+
 
 ---
 ### dbt Setup & Usage
@@ -177,14 +179,33 @@ dbt run
 dbt test
 ```
 
+#### Core Models
 
+| Model                    | Description                                       |
+|-------------------------|---------------------------------------------------|
+| `fct_constructor_stats` | Total points & wins per constructor by year       |
+| `fct_driver_fastest_lap`| Fastest lap time per driver by year               |
+| `fct_race_count_by_country` | Number of races hosted per country           |
 
+#### Running the dbt pipeline
+
+FYI 😊, providing a helper script to run dbt pipeline & generate docs in one step:
+```bash
+bash run_dbt_and_docs.sh
+```
+
+Then to preview the generated documentation:
+```bash
+cd dbt
+dbt docs serve --port 8081
+```
+Serving docs at `http://localhost:8081 ...`
+✌️✌️✌️
 
 ### Next Steps
-Set up dbt models (core)
 Visualize results in dashboards (Google Data Studio).
 
----
+
 
 
 
