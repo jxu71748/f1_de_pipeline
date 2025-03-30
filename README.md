@@ -133,12 +133,56 @@ docker exec -it airflow-webserver bash
 You can now run:
 - `f1_ingestion_dag`: Downloads data from Kaggle and uploads raw CSVs to GCS (Bronze)
 - `f1_transform_dag`: Transforms raw CSVs to cleaned Parquet using PySpark (Silver)
+- `f1_upload_silver_dag`: Uploads cleaned Parquets to GCS (Silver)
 
 ---
+### Load Silver Data (Parquet) from GCS to BigQuery
+
+Once you've uploaded the cleaned Parquet files to `gs://f1-de-bucket/silver/`, run the following script to load them into BigQuery:
+
+```bash
+cd scripts
+bash load_all_parquet_to_bq.sh
+```
+Make sure your GCP credentials are properly configured and the target dataset (f1_data) already exists.
+
+---
+### dbt Setup & Usage
+
+This project uses [dbt](https://www.getdbt.com/) to transform data in BigQuery.
+
+#### Requirements
+
+Make sure you have the following Python packages installed:
+
+```bash
+pip install dbt-core dbt-bigquery
+```
+
+#### Running dbt
+
+Once you're in the `dbt/` folder:
+
+```bash
+# Install any required packages
+dbt deps
+
+# Clean previous build files (optional but good habit)
+dbt clean
+
+# Run the models (we’re using views for the staging layer)
+dbt run
+
+# (Optional) Run tests
+dbt test
+```
+
+
+
 
 ### Next Steps
-Set up dbt models to move transformed Parquet (Silver) into BigQuery (Gold).
-Visualize results in dashboards (e.g. Looker Studio or Google Data Studio).
+Set up dbt models (core)
+Visualize results in dashboards (Google Data Studio).
 
 ---
 

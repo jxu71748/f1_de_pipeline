@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_circuits
+    description: "Staging view for circuits table (passthrough from BigQuery)"
+  - name: stg_constructors
+    description: "Staging view for constructors table (passthrough from BigQuery)"
+  - name: stg_drivers
+    description: "Staging view for drivers table (passthrough from BigQuery)"
+  - name: stg_lap_times
+    description: "Staging view for lap_times table (passthrough from BigQuery)"
+  - name: stg_races
+    description: "Staging view for races table (passthrough from BigQuery)"
+  - name: stg_results
+    description: "Staging view for results table (passthrough from BigQuery)"
