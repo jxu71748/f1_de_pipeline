@@ -16,7 +16,7 @@ This project is part of the DE Zoomcamp final capstone. The goal is to build a c
 - **Language**: Python
 
 
-## Dashboar
+## Dashboard
 
 ### 1. Race Hosting Analysis
 - Top 10 Countries by Races Hosted

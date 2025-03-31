@@ -33148,3 +33148,53 @@ File Path                                  PID    Runtime      # DAGs    # Error
 /opt/airflow/dags/f1_ingestion_dag.py                               1           0  0.06s           2025-03-31T07:28:17
 /opt/airflow/dags/f1_transform_dag.py                               1           0  0.11s           2025-03-31T07:28:17
 ================================================================================
+[2025-03-31T07:29:15.603+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/f1_upload_silver_dag.py                           1           0  0.19s           2025-03-31T07:28:48
+/opt/airflow/dags/f1_ingestion_dag.py                               1           0  0.06s           2025-03-31T07:28:48
+/opt/airflow/dags/f1_transform_dag.py                               1           0  0.15s           2025-03-31T07:28:48
+================================================================================
+[2025-03-31T07:29:46.020+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/f1_upload_silver_dag.py                           1           0  0.13s           2025-03-31T07:29:18
+/opt/airflow/dags/f1_ingestion_dag.py                               1           0  0.06s           2025-03-31T07:29:18
+/opt/airflow/dags/f1_transform_dag.py                               1           0  0.12s           2025-03-31T07:29:18
+================================================================================
+[2025-03-31T07:30:16.429+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/f1_upload_silver_dag.py                           1           0  0.13s           2025-03-31T07:29:49
+/opt/airflow/dags/f1_ingestion_dag.py                               1           0  0.07s           2025-03-31T07:29:49
+/opt/airflow/dags/f1_transform_dag.py                               1           0  0.11s           2025-03-31T07:29:49
+================================================================================
+[2025-03-31T07:30:46.970+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/f1_upload_silver_dag.py                           1           0  0.24s           2025-03-31T07:30:19
+/opt/airflow/dags/f1_ingestion_dag.py                               1           0  0.08s           2025-03-31T07:30:19
+/opt/airflow/dags/f1_transform_dag.py                               1           0  0.20s           2025-03-31T07:30:19
+================================================================================
+[2025-03-31T07:31:17.431+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/f1_upload_silver_dag.py                           1           0  0.19s           2025-03-31T07:30:50
+/opt/airflow/dags/f1_ingestion_dag.py                               1           0  0.06s           2025-03-31T07:30:50
+/opt/airflow/dags/f1_transform_dag.py                               1           0  0.16s           2025-03-31T07:30:50
+================================================================================
