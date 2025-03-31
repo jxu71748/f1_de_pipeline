@@ -44,8 +44,7 @@ pip-delete-this-directory.txt
 # VSCode
 .vscode/
 *.code-workspace
-# Jupyter output
-.ipynb_checkpoints/
+
 
 # Mac will automatically generate this file but we don't want to upload it
 .DS_Store

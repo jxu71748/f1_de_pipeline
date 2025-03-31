@@ -1,15 +1,40 @@
 # Formula 1 Data Pipeline Project 🏎️ 🏎️ 🏎️ 
 
 ## Project Objective
-This project is part of the DE Zoomcamp course final project. The goal is to build a complete batch data pipeline using GCP, Terraform, Airflow, and Spark. The dataset is from Kaggle and contains Formula 1 race data from 1950 to 2024.
+This project is part of the DE Zoomcamp final capstone. The goal is to build a complete batch data pipeline using GCP, Terraform, Airflow, Spark, dbt, and Looker Studio. The dataset is from Kaggle and contains Formula 1 race data from 1950 to 2024.
 
-## Tools Used
-- Cloud: Google Cloud Platform (GCS & BigQuery)
-- Infrastructure as code (IaC): Terraform
-- Workflow orchestration: Airflow
-- Batch processing: PySpark + dbt for data transformation
-- Visualization: Google Data Studio
-- Python for scripting (data download, upload, transformation)
+## Tech Stack
+
+![Tech Stack](https://github.com/jxu71748/f1-de-pipeline/assets/tech-stack-diagram.png)
+
+- **Cloud**: Google Cloud Platform (GCS, BigQuery)
+- **Infrastructure as Code**: Terraform
+- **Workflow Orchestration**: Airflow
+- **Processing Engine**: PySpark
+- **Transformation**: dbt
+- **Visualization**: Looker Studio
+- **Language**: Python
+
+
+## Dashboar
+
+### 1. Race Hosting Analysis
+- Top 10 Countries by Races Hosted
+- Pie Chart of Country Distribution
+- Total Races & Countries KPIs
+
+![Race Count](assets/races & countries.png)
+
+### 2. Constructor Performance
+- **Total Points per Year** (Line Chart)
+- **Top 5 Winning Constructors** (Bar Chart)
+
+![Constructor Stats](assets/constructor_stats.png)
+
+### 3. Driver Fastest Lap Records
+- Fastest lap time per driver by year (Scatter Plot)
+
+![Fastest Lap](assets/Driver Fastest Lap Records.png)
 
 
 ## Project Overview
@@ -61,7 +86,7 @@ pip install apache-airflow
 
 ---
 
-### Docker Setup (Updated)
+### Docker Setup
 
 Make sure you're in the `docker/` directory before running the commands below.
 
@@ -202,8 +227,8 @@ dbt docs serve --port 8081
 Serving docs at `http://localhost:8081 ...`
 ✌️✌️✌️
 
-### Next Steps
-Visualize results in dashboards (Google Data Studio).
+### Author
+Built by Jingwen Xu.
 
 
 
