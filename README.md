@@ -5,7 +5,7 @@ This project is part of the DE Zoomcamp final capstone. The goal is to build a c
 
 ## Tech Stack
 
-![Tech Stack](https://github.com/jxu71748/f1-de-pipeline/assets/tech-stack-diagram.png)
+![Tech Stack](assets/tech_stack_diagram.png)
 
 - **Cloud**: Google Cloud Platform (GCS, BigQuery)
 - **Infrastructure as Code**: Terraform
@@ -23,7 +23,7 @@ This project is part of the DE Zoomcamp final capstone. The goal is to build a c
 - Pie Chart of Country Distribution
 - Total Races & Countries KPIs
 
-![Race Count](assets/races & countries.png)
+![Races Countries](assets/races_countries.png)
 
 ### 2. Constructor Performance
 - **Total Points per Year** (Line Chart)
@@ -34,7 +34,7 @@ This project is part of the DE Zoomcamp final capstone. The goal is to build a c
 ### 3. Driver Fastest Lap Records
 - Fastest lap time per driver by year (Scatter Plot)
 
-![Fastest Lap](assets/Driver Fastest Lap Records.png)
+![Fastest Lap](assets/Driver_Fastest_Lap_Records.png)
 
 
 ## Project Overview
